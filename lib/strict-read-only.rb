@@ -40,4 +40,4 @@ module StrictReadOnly
   end
 end
 
-ActiveSupport.on_load(:active_record) { ActiveRecord::Base.prepend StrictReadOnly::Extension }
+ActiveSupport.on_load(:active_record) { ActiveRecord::Base.include StrictReadOnly::Extension }

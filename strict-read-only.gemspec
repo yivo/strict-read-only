@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name                  = "strict-read-only"
-  s.version               = "1.0.0"
+  s.version               = "1.0.1"
   s.author                = "Yaroslav Konoplov"
   s.email                 = "eahome00@gmail.com"
   s.summary               = "A strict replacement for attr_readonly in Rails."
